@@ -1,73 +1,85 @@
-# Welcome to your Lovable project
+# Laura Teresa — Portfólio
 
-## Project info
+> Portfólio pessoal de **Laura Teresa**, desenvolvedora de sistemas júnior.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+🌐 **Acesse o portfólio:** [portfolio-laurateresa.vercel.app](https://portfolio-laurateresa.vercel.app/)
 
-## How can I edit this code?
+## ✨ Sobre o projeto
 
-There are several ways of editing your application.
+Este repositório contém meu portfólio pessoal, criado para apresentar minha trajetória, habilidades e projetos de desenvolvimento.
 
-**Use Lovable**
+A proposta é manter uma apresentação simples, moderna, responsiva e focada nos projetos que fazem parte da minha evolução como desenvolvedora.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🧩 O que você encontra aqui
 
-Changes made via Lovable will be committed automatically to this repo.
+- Apresentação profissional
+- Sobre mim e minha forma de trabalhar
+- Tecnologias e ferramentas que estudo e utilizo
+- Projetos desenvolvidos
+- Formas de contato
+- Layout responsivo para diferentes dispositivos
+- Animações e interações para uma experiência mais dinâmica
 
-**Use your preferred IDE**
+## 🛠️ Tecnologias
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **React 18**
+- **TypeScript**
+- **Vite**
+- **Tailwind CSS**
+- **shadcn/ui**
+- **React Router**
+- **React Query**
+- **Lucide React**
+- **Vitest**
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🚀 Executando localmente
 
-Follow these steps:
+### Pré-requisitos
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Node.js
+- npm
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Instalação
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone https://github.com/laurateresa-code/MeuPortfolio.git
+cd MeuPortfolio
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Para gerar a versão de produção:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm run build
+```
 
-**Use GitHub Codespaces**
+## 📁 Estrutura principal
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```text
+src/
+├── components/
+│   ├── portfolio/
+│   └── ui/
+├── hooks/
+├── pages/
+└── App.tsx
+```
 
-## What technologies are used for this project?
+## 💡 Destaques
 
-This project is built with:
+O projeto utiliza carregamento sob demanda das páginas, componentes reutilizáveis, animações de entrada e uma estrutura preparada para evolução contínua. A aplicação também possui recursos de acessibilidade, como link para pular diretamente ao conteúdo principal.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📌 Status
 
-## How can I deploy this project?
+**Em evolução.** Este portfólio acompanha meu aprendizado e será atualizado conforme novos projetos, tecnologias e experiências forem adicionados.
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 👩‍💻 Sobre mim
 
-## Can I connect a custom domain to my Lovable project?
+Sou desenvolvedora de sistemas júnior e gosto de transformar ideias e problemas reais em aplicações funcionais. Tenho interesse em desenvolvimento web, APIs, automações, aplicações mobile e soluções que aproximem tecnologia e necessidades do dia a dia.
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+<p align="center">
+  Feito com 💜 por <strong>Laura Teresa</strong>
+</p>
